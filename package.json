@@ -1,0 +1,27 @@
+{
+  "name": "managemate-next",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ManageMate migrated to Next.js App Router with PostgreSQL API routes",
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1 --port 3001",
+    "build": "next build",
+    "start": "next start --hostname 127.0.0.1 --port 3001",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "next": "^15.3.3",
+    "pg": "^8.12.0",
+    "qrcode": "^1.5.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.27.0",
+    "eslint-config-next": "^15.3.3"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}
